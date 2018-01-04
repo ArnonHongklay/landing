@@ -1,0 +1,18 @@
+  body{
+    font-family: 'Kanit', sans-serif;
+
+  }
+  nav{
+    font-weight: bold;
+  }
+  #navitem{
+    width: 25px;
+  }
+  #itemactive{
+    text-decoration: underline;
+  }
+  #footer{
+    background-color: #1E1E1E;
+    color: white;
+  }
+

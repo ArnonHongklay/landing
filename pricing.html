@@ -1,0 +1,1313 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Pricing</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+</head>
+<body>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $("#data2").hide();
+      $("#data3").hide();
+      $("#data4").hide();
+
+      $("#btnpricing1").click(function () {
+        $('.btn-dark').removeClass('btn btn-dark btn-round').addClass('btn btn-outline-secondary btn-round');
+        $('#btnpricing1').removeClass('btn btn-outline-secondary btn-round').addClass('btn btn-dark btn-round');
+        $("#data1").show();
+        $("#data2").hide();
+        $("#data3").hide();
+        $("#data4").hide();
+      });
+      $("#btnpricing12").click(function () {
+        $('.btn-dark').removeClass('btn btn-dark btn-round').addClass('btn btn-outline-secondary btn-round');
+        $('#btnpricing12').removeClass('btn btn-outline-secondary btn-round').addClass('btn btn-dark btn-round');
+        $("#data1").show();
+        $("#data2").hide();
+        $("#data3").hide();
+        $("#data4").hide();
+      });
+      $("#btnpricing2").click(function () {
+        $('.btn-dark').removeClass('btn btn-dark btn-round').addClass('btn btn-outline-secondary btn-round');
+        $('#btnpricing2').removeClass('btn btn-outline-secondary btn-round').addClass('btn btn-dark btn-round');
+        $("#data1").hide();
+        $("#data2").show();
+        $("#data3").hide();
+        $("#data4").hide();
+      });
+      $("#btnpricing22").click(function () {
+        $('.btn-dark').removeClass('btn btn-dark btn-round').addClass('btn btn-outline-secondary btn-round');
+        $('#btnpricing22').removeClass('btn btn-outline-secondary btn-round').addClass('btn btn-dark btn-round');
+        $("#data1").hide();
+        $("#data2").show();
+        $("#data3").hide();
+        $("#data4").hide();
+      });
+
+      $("#btnpricing3").click(function () {
+        $('.btn-dark').removeClass('btn btn-dark btn-round').addClass('btn btn-outline-secondary btn-round');
+        $('#btnpricing3').removeClass('btn btn-outline-secondary btn-round').addClass('btn btn-dark btn-round');
+        $("#data1").hide();
+        $("#data2").hide();
+        $("#data3").show();
+        $("#data4").hide();
+      });
+      $("#btnpricing32").click(function () {
+        $('.btn-dark').removeClass('btn btn-dark btn-round').addClass('btn btn-outline-secondary btn-round');
+        $('#btnpricing32').removeClass('btn btn-outline-secondary btn-round').addClass('btn btn-dark btn-round');
+        $("#data1").hide();
+        $("#data2").hide();
+        $("#data3").show();
+        $("#data4").hide();
+      });
+
+      $("#btnpricing4").click(function () {
+        $('.btn-dark').removeClass('btn btn-dark btn-round').addClass('btn btn-outline-secondary btn-round');
+        $('#btnpricing4').removeClass('btn btn-outline-secondary btn-round').addClass('btn btn-dark btn-round');
+        $("#data1").hide();
+        $("#data2").hide();
+        $("#data3").hide();
+        $("#data4").show();
+      });
+
+      $("#btnpricing42").click(function () {
+        $('.btn-dark').removeClass('btn btn-dark btn-round').addClass('btn btn-outline-secondary btn-round');
+        $('#btnpricing42').removeClass('btn btn-outline-secondary btn-round').addClass('btn btn-dark btn-round');
+        $("#data1").hide();
+        $("#data2").hide();
+        $("#data3").hide();
+        $("#data4").show();
+      });
+
+
+
+
+
+    });
+  </script>
+  <style type="text/css">
+  #rows2{
+    border-bottom: 0.5px solid #FFFFFF;
+  }
+</style>
+
+<link rel="stylesheet" href="css/pricing.css">
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #ffffff;">
+    <div class="container">
+     <a class="navbar-brand" href="home.html">
+      <img src="img/logo/skybox.png" width="100" height="30" class="d-inline-block align-top" alt="">
+    </a>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="navbarResponsive" style="">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="shopping.html">Shopping</a>
+        </li>
+        <span id="navitem"></span>
+        <li class="nav-item">
+          <a class="nav-link" href="service.html">Service</a>
+        </li>
+        <span id="navitem"></span>
+        <li id="itemactive" class="nav-item active">
+          <a class="nav-link" href="pricing.html">Pricing</a>
+        </li>
+        <span id="navitem"></span>
+        <li class="nav-item">
+          <a class="nav-link" href="location.html">Location</a>
+        </li>
+        <span id="navitem"></span>
+        <li class="nav-item">
+          <a class="nav-link" href="help.html">Help</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <br><br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-sm-6 d-none d-sm-block">
+        <button type="button" class="btn btn-dark btn-round" id="btnpricing1" style="width: 100%;">ค่าบริการรับสินค้า / ส่งสินค้า</button>
+      </div><br></br>
+      <div class="col-lg-3 col-sm-6 d-none d-sm-block">
+        <button type="button" class="btn btn-outline-secondary btn-round" id="btnpricing2" style="width: 100%;">ค่าบริการคลังสินค้า / จัดส่ง</button>
+      </div><br></br>
+      <div class="col-lg-3 col-sm-6 d-none d-sm-block">
+        <button type="button" class="btn btn-outline-secondary btn-round" id="btnpricing3" style="width: 100%;">ค่าบริการส่งต่างประเทศ</button>
+      </div><br></br>
+      <div class="col-lg-3 col-sm-6 d-none d-sm-block">
+        <button type="button" class="btn btn-outline-secondary btn-round" id="btnpricing4" style="width: 100%;">ค่าบริการอื่นๆ</button>
+      </div>
+
+      <div class="col-12 d-block d-sm-none">
+        <div class="d-block d-sm-none">
+          <button type="button" class="btn btn-dark btn-round" id="btnpricing12" style="width: 100%;">ค่าบริการรับสินค้า / ส่งสินค้า</button>
+        </div><br>
+        <div class="d-block d-sm-none">
+          <button type="button" class="btn btn-outline-secondary btn-round" id="btnpricing22" style="width: 100%;">ค่าบริการคลังสินค้า / จัดส่ง</button>
+        </div><br>
+        <div class="d-block d-sm-none">
+          <button type="button" class="btn btn-outline-secondary btn-round" id="btnpricing32" style="width: 100%;">ค่าบริการส่งต่างประเทศ</button>
+        </div><br>
+        <div class="d-block d-sm-none">
+          <button type="button" class="btn btn-outline-secondary btn-round" id="btnpricing42" style="width: 100%;">ค่าบริการอื่นๆ</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <br>
+
+  <div class="container" id="data1">
+    <div class="row">
+      <div class="col-md-12 col-md-offset-2">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+          </div>
+          <table class="table table-bordered table-responsive-lg" id="dev-table">
+            <thead>
+              <tr>
+                <th id="coltb" scope="col" style="padding: 1cm;"><h4>น้ำหนักสินค้า</h4></th>
+                <th id="coltb" scope="col" style="padding: 1cm;"><h4>SKYBOX</h4></th>
+                <th id="coltb" scope="col" style="padding: 1cm;"><h4>ส่งถึงบ้าน*</h4></th>
+                <th id="coltb" scope="col" style="padding: 1cm;"><h4>7-11 กทม.</h4></th>
+                <th id="coltb" scope="col" style="padding: 1cm;"><h4>7-11 ตจว.</h4></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">0.5 กก.</th>
+                <td>-</td>
+                <td>40</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <th scope="row">1 กก.</th>
+                <td>35</td>
+                <td>45</td>
+                <td>45</td>
+                <td>75</td>
+              </tr>
+              <tr>
+                <th scope="row">2 กก.</th>
+                <td>45</td>
+                <td>70</td>
+                <td>55</td>
+                <td>95</td>
+              </tr>
+              <tr>
+                <th scope="row">3 กก.</th>
+                <td>55</td>
+                <td>80</td>
+                <td>65</td>
+                <td>105</td>
+              </tr>
+              <tr>
+                <th scope="row">4 กก.</th>
+                <td>65</td>
+                <td>80</td>
+                <td>75</td>
+                <td>115</td>
+              </tr>
+              <tr>
+                <th scope="row">5 กก.</th>
+                <td>75</td>
+                <td>80</td>
+                <td>85</td>
+                <td>125</td>
+              </tr>
+              <tr>
+                <th scope="row">6 กก.</th>
+                <td>85</td>
+                <td>85</td>
+                <td>95</td>
+                <td>135</td>
+              </tr>
+              <tr>
+                <th scope="row">7 กก.</th>
+                <td>95</td>
+                <td>85</td>
+                <td>105</td>
+                <td>145</td>
+              </tr>
+              <tr>
+                <th scope="row">8 กก.</th>
+                <td>105</td>
+                <td>110</td>
+                <td>115</td>
+                <td>155</td>
+              </tr>
+              <tr>
+                <th scope="row">9 กก.</th>
+                <td>115</td>
+                <td>150</td>
+                <td>125</td>
+                <td>165</td>
+              </tr>
+              <tr>
+                <th scope="row">10 กก.</th>
+                <td>125</td>
+                <td>150</td>
+                <td>135</td>
+                <td>175</td>
+              </tr>
+              <tr>
+                <th scope="row">บริการเก็บเงินปลายทาง</th>
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                <td><i class="fa fa-times" aria-hidden="true"></i></td>
+                <td><i class="fa fa-times" aria-hidden="true"></i></td>
+                <td><i class="fa fa-times" aria-hidden="true"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">บริการรับคืนสินค้า</th>
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                <td><i class="fa fa-times" aria-hidden="true"></i></td>
+                <td><i class="fa fa-times" aria-hidden="true"></i></td>
+                <td><i class="fa fa-times" aria-hidden="true"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">แจ้งเตือนให้เข้ารับสินค้าโดย sms</th>
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">ระยะเวลาการรอลูกค้ามารับสินค้า</th>
+                <td>5 วัน</td>
+                <td>3 วัน</td>
+                <td>3 วัน</td>
+                <td>3 วัน</td>
+              </tr>
+              <tr>
+                <th scope="row">Cut Off Time</th>
+                <td>10:00 / 12:00 / 14:00 / 16:00 / 18:00 น.</td>
+                <td>15:00 น.</td>
+                <td>15:00 น.</td>
+                <td>15:00 น.</td>
+              </tr>
+              <tr>
+                <th scope="row">Service Lead Time</th>
+                <td>ภายในวัน</td>
+                <td>วันถัดไป</td>
+                <td>1-2 วัน</td>
+                <td>1-2 วัน</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container" id="data2">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-8">
+                <h5>SETUP & ONGOING MANAGEMENT FEE</h5>
+                <p>- วางแผนบริการและการจัดการสินค้า</p>
+                <p>- บริการจัดการรายการสินค้า</p>
+                <p>- ดูแลระบบ</p>
+                <p>- Hotline สำหรับโทรประสานงาน</p>
+              </div>
+              <div class="col-lg-4">
+                <h5>5,000 บาทต่อเดือน</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-8">
+                <h5>HANDLING - IN</h5>
+                <p>- ตรวจสอบรายการสินค้าและจำนวนสินค้าจริงเพื่อรับเข้าสินค้าเข้ามาจัดเก็บ</p>
+                <p>- จัดการรายการสินค้า ตรวจสอบยอดคงคลังและแจ้งเตือนเมื่อสินค้าใกล้หมด</p>
+              </div>
+              <div class="col-lg-4">
+                <h5>1 บาทต่อชิ้น</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-8">
+                <h5>STORAGE</h5>
+                <p>- บริการเช่าเพื้นที่จัดเก็บสินค้า ชั้นวางขนาด 50x100x45 cm.</p>
+                <p>- รับน้ำหนักสูงสุด 120 กก.</p>
+                <p>- จัดเก็บในที่ที่เหมาะสมและปลอดภัยและพร้อมส่งมอบให้ลูกค้าใน 2 ชั่วโมง</p>
+                <p> บนสาขา SKYBOX หลังได้รับคำสั่งสื้อ</p>
+              </div>
+              <div class="col-lg-4">
+                <h5>2,500 / ชั้นวาง / เดือน</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-8">
+                <h5>HANDLING - OUT</h5>
+                <p>- Pick / Pack / Labelling</p>
+                <p>- สามารถให้ทางเราใส่ใบปลิว ตามความต้องการของลูกค้า</p>
+                <p>- ตัดสต๊อกสินค้า</p>
+                <p>- สร้างรายการสินค้าในระบบเพื่อกระจายสินค้าต่อไป</p>
+              </div>
+              <div class="col-lg-4">
+                <h5>10 บาทต่อคำสั่งซื้อ (ไม่รวมบรรจุภัณฑ์)</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-7">
+                <h5>VALUE ADDED SERVICE</h5>
+                <p>บริการกล่องและวัสดุกันกระแทก</p>
+                <p>วัสดุคุณภาพดี ตามมาตรฐานไปรษณีย์</p>
+              </div>
+              <div class="col-lg-5">
+                <table class="table table-curved">
+                  <thead>
+                    <tr>
+                      <th scope="col">กล่อง</th>
+                      <th scope="col">ขนาด ก/ย/ส (ซม)</th>
+                      <th scope="col">ราคา (บาท)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">O</th>
+                      <td>12x17x6</td>
+                      <td>10</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">S</th>
+                      <td>14x22x6</td>
+                      <td>20</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">M</th>
+                      <td>17x26x10</td>
+                      <td>25</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">L</th>
+                      <td>21x30x11</td>
+                      <td>30</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">E</th>
+                      <td>24x40x18</td>
+                      <td>35</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">F</th>
+                      <td>30x45x20</td>
+                      <td>40</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">วัสดุกันกระแทก</th>
+                      <td></td>
+                      <td>8</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="card" style="border-radius: 0px 0px 50px 50px;">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-8">
+                <h5>RETURN / REJECT</h5>
+                <p>- นำสินค้าที่ไม่มีผู้รับสินค้ามาเข้าจัดเก็บ</p>
+                <p>- ตรวจสอบสินค้า แกะกล่อง และ จัดเก็บสินค้าเข้าชั้นวาง</p>
+                <p>- อัพเดทจำนวนรายการสินค้าเข้าคงคลัง</p>
+              </div>
+              <div class="col-lg-4">
+                <h5>25 บาทต่อคำสั่งซื้อ</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="card" style="border: white;">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-9">
+                <h5>ข้อตกลงและเงื่อนไข</h5>
+                <p>1. ตัดรับสินค้า 17:00 น. หากมีคำสั่งซื้อหลังจาก 17:00 น. จะทำการแพ็คและกระจายสินค้าในรอบวันถัดไป</p>
+                <p>2. ดำเนินการแพ็คสินค้า 7 วันต่อสัปดาห์</p>
+                <p>3. รับประกันความสูญหาย หรือ เสียหายที่ตรวจสอบแล้วว่าเป็นความสูญหายหรือเสียหายโดย SKYBOX เต็มจำนวนและไม่รับประกันในกรณีสินค้าหมดอายุ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="data3">
+    <div class="row">
+      <div class="col-md-12 col-md-offset-2">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+          </div>
+          <table style="width: 100%" class="table table-bordered table-responsive-lg" id="dev-table">
+            <thead>
+              <tr>
+                <th id="coltb2" scope="col" style="border-right: 0.5px solid #58595B;border-bottom: 0.5px solid #58595B;vertical-align: middle;">
+                  <h5>Weight (kg)
+
+                  </h5>
+                </th>
+                <th id="coltb2" scope="col" style="border-right: 0.5px solid #58595B;border-bottom: 0.5px solid #58595B;vertical-align: top;">
+                  <h5>Zone A</h5>
+                  <p>Hong Kong,<br>Macau,<br>S.China,<br>Singapore,<br>Malaysia</p> 
+                </th>
+                <th id="coltb2" scope="col" style="border-right: 0.5px solid #58595B;border-bottom: 0.5px solid #58595B;vertical-align: top;">
+                  <h5>Zone B</h5>
+                  <p>Non-S.China,<br>Taiwan,<br>Vietnam</p>
+                </th>
+                <th id="coltb2" scope="col" style="border-right: 0.5px solid #58595B;border-bottom: 0.5px solid #58595B;vertical-align: top;">
+                  <h5>Zone C</h5>
+                  <p>Japan,<br>South Korea,<br>Myanmar</p>
+                </th>
+                <th id="coltb2" scope="col" style="border-right: 0.5px solid #58595B;border-bottom: 0.5px solid #58595B;vertical-align: top;">
+                  <h5>Zone D</h5> 
+                  <p>Australia,<br>Indonesia,<br>Cambodia</p>
+                </th>
+                <th id="coltb2" scope="col" style="border-right: 0.5px solid #58595B;border-bottom: 0.5px solid #58595B;vertical-align: top;">
+                  <h5>Zone E</h5>
+                  <p>India</p>
+                </th>
+                <th id="coltb2" scope="col" style="border-right: 0.5px solid #58595B;border-bottom: 0.5px solid #58595B;vertical-align: top;">
+                  <h5>Zone F</h5>
+                  <p>USA,<br>Mexico,Canada</p>
+                </th>
+                <th id="coltb2" scope="col" style="border-bottom: 0.5px solid #58595B;vertical-align: top;">
+                  <h5>Zone F</h5> 
+                  <p>Mongolia</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="border: none;background-color: #58595B;color: white;text-align: center;" colspan=8>
+                  <div id="my_box">
+                    Documents
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" id="rows2">0.5</th>
+                <td id="rows2">350</td>
+                <td id="rows2">450</td>
+                <td id="rows2">600</td>
+                <td id="rows2">610</td>
+                <td id="rows2">630</td>
+                <td id="rows2">850</td>
+                <td id="rows2">860</td>
+              </tr>
+              <tr>
+                <th scope="row" id="rows2">1.0</th>
+                <td id="rows2">510</td>
+                <td id="rows2">660</td>
+                <td id="rows2">815</td>
+                <td id="rows2">835</td>
+                <td id="rows2">860</td>
+                <td id="rows2">1,110</td>
+                <td id="rows2">1,180</td>
+              </tr>
+              <tr>
+                <th scope="row" id="rows2">1.5</th>
+                <td id="rows2">670</td>
+                <td id="rows2">870</td>
+                <td id="rows2">1,030</td>
+                <td id="rows2">1,060</td>
+                <td id="rows2">1,090</td>
+                <td id="rows2">1,370</td>
+                <td id="rows2">1,500</td>
+              </tr>
+              <tr>
+                <th scope="row" id="rows2">2.0</th>
+                <td id="rows2">830</td>
+                <td id="rows2">1,080</td>
+                <td id="rows2">1,245</td>
+                <td id="rows2">1,285</td>
+                <td id="rows2">1,320</td>
+                <td id="rows2">1,630</td>
+                <td id="rows2">1,820</td>
+              </tr>
+              <tr>
+                <th scope="row" id="rows2">2.5</th>
+                <td id="rows2">990</td>
+                <td id="rows2">1,290</td>
+                <td id="rows2">1,460</td>
+                <td id="rows2">1,510</td>
+                <td id="rows2">1,550</td>
+                <td id="rows2">1,890</td>
+                <td id="rows2">2,140</td>
+              </tr>
+              <tr>
+                <td style="border: none;background-color: #58595B;color: white;text-align: center;" colspan=8>
+                  <div id="my_box">
+                    Non-Documents
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" id="rows2">0.5</th>
+                <td id="rows2">740</td>
+                <td id="rows2">790</td>
+                <td id="rows2">940</td>
+                <td id="rows2">950</td>
+                <td id="rows2">990</td>
+                <td id="rows2">1,000</td>
+                <td id="rows2">1,340</td>
+              </tr>
+              <tr>
+                <th scope="row" id="rows2">1.0</th>
+                <td id="rows2">840</td>
+                <td id="rows2">940</td>
+                <td id="rows2">1,115</td>
+                <td id="rows2">1,290</td>
+                <td id="rows2">1,310</td>
+                <td id="rows2">1,350</td>
+                <td id="rows2">1,460</td>
+              </tr>
+              <tr>
+                <th scope="row" id="rows2">1.5</th>
+                <td id="rows2" id="rows2">940</td>
+                <td id="rows2">1,090</td>
+                <td id="rows2">1,290</td>
+                <td id="rows2">1,1310</td>
+                <td id="rows2">1,1350</td>
+                <td id="rows2">1,1460</td>
+                <td id="rows2">1,1840</td>
+              </tr>
+              <tr>
+                <th scope="row" id="rows2">2.0</th>
+                <td id="rows2">1,040</td>
+                <td id="rows2">1,240</td>
+                <td id="rows2">1,465</td>
+                <td id="rows2">1,490</td>
+                <td id="rows2">1,530</td>
+                <td id="rows2">1,690</td>
+                <td id="rows2">2,090</td>
+              </tr>
+              <tr>
+                <th scope="row">2.5</th>
+                <td id="rows2">1,140</td>
+                <td id="rows2">1,390</td>
+                <td id="rows2">1,640</td>
+                <td id="rows2">1,670</td>
+                <td id="rows2">1,710</td>
+                <td id="rows2">1,920</td>
+                <td id="rows2">2,340</td>
+              </tr>
+              <tr>
+                <td style="border: none;background-color: #58595B;color: white;text-align: center;" colspan=8>
+                  <div id="my_box">
+                   Documents&Non-Documents
+                 </div>
+               </td>
+             </tr>
+             <tr>
+              <th scope="row" id="rows2">3.0</th>
+              <td id="rows2">1,255</td>
+              <td id="rows2">1,500</td>
+              <td id="rows2">1,745</td>
+              <td id="rows2">1,805</td>
+              <td id="rows2">1,885</td>
+              <td id="rows2">2,130</td>
+              <td id="rows2">2,545</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">3.5</th>
+              <td id="rows2">1,370</td>
+              <td id="rows2">1,610</td>
+              <td id="rows2">1,850</td>
+              <td id="rows2">1,940</td>
+              <td id="rows2">2,060</td>
+              <td id="rows2">2,340</td>
+              <td id="rows2">2,750</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">4.0</th>
+              <td id="rows2">1,485</td>
+              <td id="rows2">1,720</td>
+              <td id="rows2">1,955</td>
+              <td id="rows2">2,075</td>
+              <td id="rows2">2,235</td>
+              <td id="rows2">2,550</td>
+              <td id="rows2">2,955</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">4.5</th>
+              <td id="rows2">1,600</td>
+              <td id="rows2">1,830</td>
+              <td id="rows2">2,060</td>
+              <td id="rows2">2,210</td>
+              <td id="rows2">2,410</td>
+              <td id="rows2">2,760</td>
+              <td id="rows2">3,160</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">5.0</th>
+              <td id="rows2">1,715</td>
+              <td id="rows2">1,940</td>
+              <td id="rows2">2,165</td>
+              <td id="rows2">2,345</td>
+              <td id="rows2">2,585</td>
+              <td id="rows2">3,160</td>
+              <td id="rows2">3,545</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">5.5</th>
+              <td id="rows2">1,775</td>
+              <td id="rows2">2,050</td>
+              <td id="rows2">2,270</td>
+              <td id="rows2">2,480</td>
+              <td id="rows2">2,755</td>
+              <td id="rows2">3,160</td>
+              <td id="rows2">3,545</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">6.0</th>
+              <td id="rows2">1,835</td>
+              <td id="rows2">2,160</td>
+              <td id="rows2">2,375</td>
+              <td id="rows2">2,615</td>
+              <td id="rows2">2,925</td>
+              <td id="rows2">3,350</td>
+              <td id="rows2">3,725</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">6.5</th>
+              <td id="rows2">1,895</td>
+              <td id="rows2">2,270</td>
+              <td id="rows2">2,480</td>
+              <td id="rows2">2,750</td>
+              <td id="rows2">3,095</td>
+              <td id="rows2">3,540</td>
+              <td id="rows2">3,905</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">7.0</th>
+              <td id="rows2">1,955</td>
+              <td id="rows2">2,380</td>
+              <td id="rows2">2,585</td>
+              <td id="rows2">2,885</td>
+              <td id="rows2">3,265</td>
+              <td id="rows2">3,730</td>
+              <td id="rows2">4,085</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">7.5</th>
+              <td id="rows2">2,015</td>
+              <td id="rows2">2,490</td>
+              <td id="rows2">2,690</td>
+              <td id="rows2">3,020</td>
+              <td id="rows2">3,435</td>
+              <td id="rows2">3,920</td>
+              <td id="rows2">4,265</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">8.0</th>
+              <td id="rows2">2,075</td>
+              <td id="rows2">2,600</td>
+              <td id="rows2">2,795</td>
+              <td id="rows2">3,155</td>
+              <td id="rows2">3,605</td>
+              <td id="rows2">4,110</td>
+              <td id="rows2">4,445</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">8.5</th>
+              <td id="rows2">2,135</td>
+              <td id="rows2">2,710</td>
+              <td id="rows2">2,900</td>
+              <td id="rows2">3,290</td>
+              <td id="rows2">3,775</td>
+              <td id="rows2">4,300</td>
+              <td id="rows2">4,625</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">9.0</th>
+              <td id="rows2">2,195</td>
+              <td id="rows2">2,820</td>
+              <td id="rows2">3,005</td>
+              <td id="rows2">3,425</td>
+              <td id="rows2">3,945</td>
+              <td id="rows2">4,490</td>
+              <td id="rows2">4,805</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">9.5</th>
+              <td id="rows2">2,255</td>
+              <td id="rows2">2,930</td>
+              <td id="rows2">3,110</td>
+              <td id="rows2">3,560</td>
+              <td id="rows2">4,115</td>
+              <td id="rows2">4,680</td>
+              <td id="rows2">4,985</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">10.0</th>
+              <td id="rows2">2,315</td>
+              <td id="rows2">3,040</td>
+              <td id="rows2">3,215</td>
+              <td id="rows2">3,695</td>
+              <td id="rows2">4,285</td>
+              <td id="rows2">4,870</td>
+              <td id="rows2">5,165</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">10.5</th>
+              <td id="rows2">2,375</td>
+              <td id="rows2">3,110</td>
+              <td id="rows2">3,295</td>
+              <td id="rows2">3,830</td>
+              <td id="rows2">4,445</td>
+              <td id="rows2">5,060</td>
+              <td id="rows2">5,345</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">11.0</th>
+              <td id="rows2">2,435</td>
+              <td id="rows2">3,180</td>
+              <td id="rows2">3,375</td>
+              <td id="rows2">3,965</td>
+              <td id="rows2">4,625</td>
+              <td id="rows2">5,250</td>
+              <td id="rows2">5,525</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">11.5</th>
+              <td id="rows2">2,495</td>
+              <td id="rows2">3,250</td>
+              <td id="rows2">3,455</td>
+              <td id="rows2">4,100</td>
+              <td id="rows2">4,795</td>
+              <td id="rows2">5,440</td>
+              <td id="rows2">5,705</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">12.0</th>
+              <td id="rows2">2,555</td>
+              <td id="rows2">3,320</td>
+              <td id="rows2">3,535</td>
+              <td id="rows2">4,235</td>
+              <td id="rows2">4,965</td>
+              <td id="rows2">5,630</td>
+              <td id="rows2">5,885</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">12.5</th>
+              <td id="rows2">2,615</td>
+              <td id="rows2">3,390</td>
+              <td id="rows2">3,615</td>
+              <td id="rows2">4,370</td>
+              <td id="rows2">5,135</td>
+              <td id="rows2">5,820</td>
+              <td id="rows2">6,065</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">13.0</th>
+              <td id="rows2">2,675</td>
+              <td id="rows2">3,460</td>
+              <td id="rows2">3,695</td>
+              <td id="rows2">4,505</td>
+              <td id="rows2">5,305</td>
+              <td id="rows2">6,010</td>
+              <td id="rows2">6,245</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">13.5</th>
+              <td id="rows2">2,735</td>
+              <td id="rows2">3,530</td>
+              <td id="rows2">3,775</td>
+              <td id="rows2">4,640</td>
+              <td id="rows2">5,475</td>
+              <td id="rows2">6,200</td>
+              <td id="rows2">6,425</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">14.0</th>
+              <td id="rows2">2,795</td>
+              <td id="rows2">3,600</td>
+              <td id="rows2">3,855</td>
+              <td id="rows2">4,755</td>
+              <td id="rows2">5,645</td>
+              <td id="rows2">6,390</td>
+              <td id="rows2">6,605</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">14.5</th>
+              <td id="rows2">2,855</td>
+              <td id="rows2">3,670</td>
+              <td id="rows2">3,935</td>
+              <td id="rows2">4,910</td>
+              <td id="rows2">5,815</td>
+              <td id="rows2">6,580</td>
+              <td id="rows2">6,785</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">15.0</th>
+              <td id="rows2">2,915</td>
+              <td id="rows2">3,740</td>
+              <td id="rows2">4,015</td>
+              <td id="rows2">5,045</td>
+              <td id="rows2">5,985</td>
+              <td id="rows2">6,770</td>
+              <td id="rows2">6,965</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">15.5</th>
+              <td id="rows2">2,975</td>
+              <td id="rows2">3,810</td>
+              <td id="rows2">4,095</td>
+              <td id="rows2">5,180</td>
+              <td id="rows2">6,155</td>
+              <td id="rows2">6,960</td>
+              <td id="rows2">7,145</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">16.0</th>
+              <td id="rows2">3,035</td>
+              <td id="rows2">3,880</td>
+              <td id="rows2">4,175</td>
+              <td id="rows2">5,315</td>
+              <td id="rows2">6,325</td>
+              <td id="rows2">7,150</td>
+              <td id="rows2">7,325</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">16.5</th>
+              <td id="rows2">3,095</td>
+              <td id="rows2">3,950</td>
+              <td id="rows2">4,255</td>
+              <td id="rows2">5,450</td>
+              <td id="rows2">6,495</td>
+              <td id="rows2">7,340</td>
+              <td id="rows2">7,505</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">17.0</th>
+              <td id="rows2">3,155</td>
+              <td id="rows2">4,020</td>
+              <td id="rows2">4,335</td>
+              <td id="rows2">5,585</td>
+              <td id="rows2">6,665</td>
+              <td id="rows2">7,530</td>
+              <td id="rows2">7,685</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">17.5</th>
+              <td id="rows2">3,215</td>
+              <td id="rows2">4,090</td>
+              <td id="rows2">4,415</td>
+              <td id="rows2">5,720</td>
+              <td id="rows2">6,835</td>
+              <td id="rows2">7,720</td>
+              <td id="rows2">7,865</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">18.0</th>
+              <td id="rows2">3,275</td>
+              <td id="rows2">4,160</td>
+              <td id="rows2">4,495</td>
+              <td id="rows2">5,855</td>
+              <td id="rows2">7,005</td>
+              <td id="rows2">7,910</td>
+              <td id="rows2">8,045</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">18.5</th>
+              <td id="rows2">3,335</td>
+              <td id="rows2">4,230</td>
+              <td id="rows2">4,575</td>
+              <td id="rows2">5,990</td>
+              <td id="rows2">7,175</td>
+              <td id="rows2">8,100</td>
+              <td id="rows2">8,225</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">19.0</th>
+              <td id="rows2">3,395</td>
+              <td id="rows2">4,300</td>
+              <td id="rows2">4,655</td>
+              <td id="rows2">6,125</td>
+              <td id="rows2">7,345</td>
+              <td id="rows2">8,290</td>
+              <td id="rows2">8,405</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">19.5</th>
+              <td id="rows2">3,455</td>
+              <td id="rows2">4,370</td>
+              <td id="rows2">4,735</td>
+              <td id="rows2">6,260</td>
+              <td id="rows2">7,515</td>
+              <td id="rows2">8,480</td>
+              <td id="rows2">8,585</td>
+            </tr>
+            <tr>
+              <td style="border: none;background-color: #58595B;color: white;text-align: center;" colspan=8>
+                <div id="my_box">
+                  Rates per kg (Multiply by total shipment weight)
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">20-44</th>
+              <td id="rows2">174</td>
+              <td id="rows2">219</td>
+              <td id="rows2">238</td>
+              <td id="rows2">315</td>
+              <td id="rows2">378</td>
+              <td id="rows2">426</td>
+              <td id="rows2">435</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">45-70</th>
+              <td id="rows2">172</td>
+              <td id="rows2">215</td>
+              <td id="rows2">235</td>
+              <td id="rows2">310</td>
+              <td id="rows2">370</td>
+              <td id="rows2">422</td>
+              <td id="rows2">430</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">71-99</th>
+              <td id="rows2">128</td>
+              <td id="rows2">195</td>
+              <td id="rows2">225</td>
+              <td id="rows2">310</td>
+              <td id="rows2">330</td>
+              <td id="rows2">410</td>
+              <td id="rows2">420</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">100-299</th>
+              <td id="rows2">120</td>
+              <td id="rows2">190</td>
+              <td id="rows2">215</td>
+              <td id="rows2">295</td>
+              <td id="rows2">320</td>
+              <td id="rows2">400</td>
+              <td id="rows2">410</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">300-499</th>
+              <td id="rows2">110</td>
+              <td id="rows2">188</td>
+              <td id="rows2">207</td>
+              <td id="rows2">290</td>
+              <td id="rows2">315</td>
+              <td id="rows2">390</td>
+              <td id="rows2">400</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">500-999</th>
+              <td id="rows2">110</td>
+              <td id="rows2">185</td>
+              <td id="rows2">204</td>
+              <td id="rows2">290</td>
+              <td id="rows2">310</td>
+              <td id="rows2">380</td>
+              <td id="rows2">390</td>
+            </tr>
+            <tr>
+              <th scope="row" id="rows2">1000+</th>
+              <td id="rows2">110</td>
+              <td id="rows2">185</td>
+              <td id="rows2">203</td>
+              <td id="rows2">290</td>
+              <td id="rows2">310</td>
+              <td id="rows2">380</td>
+              <td id="rows2">390</td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+  <br>
+
+  <div class="container">
+    <div class="row">
+
+    </div>
+  </div>
+</div>
+
+
+<div class="container" id="data4">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+
+            <div class="col-lg-12">
+              <h5>A. บริการเก็บเงินปลายทาง</h5>
+              <br>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-3 col-2"></div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-3">
+              <h6>อัตราขั้นต่ำ</h6>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 col-1">
+              <h6> | </h6>
+            </div>
+            <div class="col-lg-4 col-md-3 col-sm-4 col-5">
+              <h6>40 บาทต่อคำสั่งซื้อ</h6>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-3 col-2"></div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-3">
+              <h6>เงินสด</h6>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 col-1">
+              <h6> | </h6>
+            </div>
+            <div class="col-lg-4 col-md-3 col-sm-4 col-5">
+              <h6>1.0% ของมูลค่าสินค้าที่เรียกเก็บ</h6>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-3 col-2"></div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-3">
+              <h6>บัตรเครดิต บัตรแรบบิท</h6>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 col-1">
+              <h6> | </h6>
+            </div>
+            <div class="col-lg-4 col-md-3 col-sm-4 col-5">
+              <h6>2.4% ของมูลค่าสินค้าที่เรียกเก็บ</h6>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-12">
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+
+           <div class="col-lg-12">
+            <h5>B. บริการโฆษณาบนหน้าจอ LCD 32'' จำนวน 2 จอ</h5>
+            <br>
+          </div>
+          <div class="col-lg-5 col-md-6 col-sm-6 d-none d-sm-block">
+            <h6>รันวิดีโอคลิปสั้น 15-30 วินาที / ประมาณ 20 ครั้งต่อวัน </h6>
+          </div>
+          <div class="col-lg-1 col-md-1 col-sm-1 d-none d-sm-block">
+            <h6> | </h6>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 d-none d-sm-block">
+            <h6>15,000 บาทต่อเดือน</h6>
+          </div>
+
+          <div class="col-5 d-block d-sm-none">
+            <h6>รันวิดีโอคลิปสั้น 15-30 วินาที / ประมาณ 20 ครั้งต่อวัน </h6>
+          </div>
+          <div class="col-2 d-block d-sm-none">
+            <h6> | </h6>
+          </div>
+          <div class="col-5 d-block d-sm-none">
+            <h6>15,000 บาทต่อเดือน</h6>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-12">
+    <div class="card">
+      <div class="card-body">
+        <div class="row">
+
+          <div class="col-lg-12">
+            <h5>C. บริการวางโบรชัวร์หน้าเคาท์เตอร์</h5>
+            <br>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-sm-3 col-2 d-none d-sm-block"></div>
+          <div class="col-lg-3 col-md-2 col-sm-3 col-3 d-none d-sm-block">
+            <h6>อโศก, หมอชิต, ช่องนนทรี</h6>
+          </div>
+          <div class="col-lg-1 col-md-1 col-sm-1 col-1 d-none d-sm-block">
+            <h6> | </h6>
+          </div>
+          <div class="col-lg-4 col-md-3 col-sm-4 col-5 d-none d-sm-block">
+            <h6>3,000 บาท /สถานี /เดือน</h6>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-sm-3 col-2 d-none d-sm-block"></div>
+          <div class="col-lg-5 col-md-2 col-sm-3 col-3 d-none d-sm-block">
+            <h6>ทองหล่อ, อารีย์, อนุสาวรีย์ฯ, สนามกีฬาแห่งชาติ</h6>
+          </div>
+          <div class="col-lg-1 col-md-1 col-sm-1 col-1 d-none d-sm-block">
+            <h6> | </h6>
+          </div>
+          <div class="col-lg-4 col-md-3 col-sm-4 col-5 d-none d-sm-block">
+            <h6>2,000 บาท /สถานี /เดือน</h6>
+          </div>
+
+          <div class="col-5 d-block d-sm-none">
+            <h6>อโศก, หมอชิต, ช่องนนทรี</h6>
+          </div>
+          <div class="col-1 d-block d-sm-none">
+            <h6> | </h6>
+          </div>
+          <div class="col-5 d-block d-sm-none">
+            <h6>3,000 บาท /สถานี /เดือน</h6>
+          </div>
+
+
+          <div class="col-5 d-block d-sm-none">
+            <h6>ทองหล่อ, อารีย์, อนุสาวรีย์ฯ, สนามกีฬาแห่งชาติ</h6>
+          </div>
+          <div class="col-1 d-block d-sm-none">
+            <h6> | </h6>
+          </div>
+          <div class="col-5 d-block d-sm-none">
+            <h6>2,000 บาท /สถานี /เดือน</h6>
+          </div>
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-12">
+    <div class="card" style="border-radius: 0px 0px 50px 50px;">
+      <div class="card-body">
+        <div class="row">
+
+          <div class="col-lg-12">
+            <h5>D. บริการเข้ารับสินค้า (Pickup Service)</h5>
+            <br>
+          </div>
+
+          <div class="col-lg-1 col-md-4 col-sm-3 col-2 d-none d-sm-block"></div>
+          <div class="col-lg-4 col-md-2 col-sm-3 col-3 d-none d-sm-block">
+            <h6>เข้ารับสินค้าในรัศมี 2 กม. จากสถานีบีทีเอส <br> รับครั้งละไม่เกิน 20 ชิ้น หรือ 20 กก.</h6>
+          </div>
+          <div class="col-lg-1 col-md-1 col-sm-1 col-1 d-none d-sm-block">
+            <h6> | </h6>
+          </div>
+          <div class="col-lg-6 col-md-3 col-sm-4 col-5 d-none d-sm-block">
+            <h6>200 บาทต่อเที่ยว</h6>
+          </div>
+
+
+          <div class="col-5 d-block d-sm-none">
+            <h6>เข้ารับสินค้าในรัศมี 2 กม. จากสถานีบีทีเอส <br> รับครั้งละไม่เกิน 20 ชิ้น หรือ 20 กก.</h6>
+          </div>
+          <div class="col-1 d-block d-sm-none">
+            <h6> | </h6>
+          </div>
+          <div class="col-5 d-block d-sm-none">
+            <h6>200 บาทต่อเที่ยว</h6>
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<br>
+<div class="container-fluid">
+  <div class="row" id="footer">
+    <div class="col-lg-12">
+      <div class="row">
+        <div class="col-lg-6 col-md-4 col-sm-4">
+          <br>
+          <p>SKYBOX HQ</p>
+          <p>48/26 ถนนรัชดาภิเษก แขวง สามเสนนอก เขตห้วงขวาง</p>
+          <p>กรุงเทพมหานคร 10310</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <br>
+          <p>ABOUT SKYBOX</p>
+          <p>LATEST NEWS & EVENT</p>
+          <p>BLOG</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-4">
+          <br>
+          <p>Follow us</p>
+          <div class="bg-circle-outline d-inline-block" style="">
+            <a href="#">
+              <img src="img/footer/line.png" width="40" height="30">
+            </a>
+          </div>
+          <div class="bg-circle-outline d-inline-block" style="">
+            <a href="#">
+             <img src="img/footer/fb.png" width="40" height="30">
+           </a>
+         </div>
+         <div class="bg-circle-outline d-inline-block" style="F">
+          <a href="#">
+            <img src="img/footer/ig.png" width="40" height="30">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+body{
+	font-family: 'Kanit', sans-serif;
+}
+nav{
+	font-weight: bold;
+}
+#navitem{
+	width: 25px;
+}
