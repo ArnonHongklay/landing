@@ -1,0 +1,112 @@
+ body{
+    font-family: 'Kanit', sans-serif;
+  }
+  nav{
+    font-weight: bold;
+  }
+  #navitem{
+    width: 25px;
+  }
+  #itemactive{
+    text-decoration: underline;
+  }
+  #footer{
+    background-color: #1E1E1E;
+    color: white;
+  }
+  #tttt{
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  border-radius: 50%; /* the magic */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 auto 40px;
+  border: 5px solid #D11459;
+}
+#circle1{
+  width: 100%;
+  height: 200px;
+  line-height: 200px;
+  border-radius: 50%; /* the magic */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 auto 40px;
+  border: 5px solid #D11459;
+}
+#circle2{
+  width: 100%;
+  height: 200px;
+  line-height: 200px;
+  border-radius: 50%; /* the magic */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 auto 40px;
+  border: 5px solid #FFFF00;
+}
+#circle3{
+  width: 100%;
+  height: 200px;
+  line-height: 200px;
+  border-radius: 50%; /* the magic */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 auto 40px;
+  border: 5px solid #29ABE2;
+}
+#circle4{
+  width: 100%;
+  height: 200px;
+  line-height: 200px;
+  border-radius: 50%; /* the magic */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 auto 40px;
+  border: 5px solid #93278F;
+}
+#circle{
+  width: 80%;
+  height: 200px;
+  line-height: 200px;
+  border-radius: 50%; /* the magic */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 auto 40px;
+  border: 5px solid #93278F;
+}
+h6{
+  font-weight: normal;
+}
+h3{
+  font-weight: normal;
+}

@@ -1,0 +1,30 @@
+ body{
+  font-family: 'Kanit', sans-serif;
+}
+nav{
+  font-weight: bold;
+}
+#navitem{
+  width: 25px;
+}
+#itemactive{
+  text-decoration: underline;
+}
+#footer{
+  background-color: #1E1E1E;
+  color: white;
+}
+.btn-round-lg{
+  border-radius: 22.5px;
+}
+.btn-round{
+  border-radius: 17px;
+}
+.btn-round-sm{
+  border-radius: 15px;
+}
+.btn-round-xs{
+  border-radius: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
